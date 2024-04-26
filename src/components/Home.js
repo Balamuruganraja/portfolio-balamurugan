@@ -29,7 +29,7 @@ const Home = () => {
                 <p>{state.text}</p>
                 </div>
                 <div className="header_ho">
-                  <a href="https://drive.google.com/file/d/1Zwgn1Sina2njg-aXXVrQjcpjUz_x_DXM/view?usp=drive_link" target="_blank" className="bt bt-outline">
+                  <a href="https://drive.google.com/file/d/1FBuh7fWHOOUpvzClpqf-CiHAg0Z2M40B/view?usp=drive_link" target="_blank" className="bt bt-outline">
                     View Resume
                   </a>
                   &nbsp;&nbsp;&nbsp;
