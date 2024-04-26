@@ -5,7 +5,7 @@ import { FaHtml5,FaReact  } from "react-icons/fa";
 import { IoLogoNodejs } from "react-icons/io";
 import keeperApp from '../images/keeperApp.PNG';
 import totoapp from '../images/todo-app.PNG';
-import Dashboard from '../images/Dashboard.PNG';
+import jobseeker from '../images/job-seeker.PNG';
 import movieApp from '../images/movieApp.PNG';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -19,24 +19,25 @@ function Portfolio() {
             
             <div className='allProjects'>
             <div class="card" data-aos="zoom-in-up">
-                    <img src={Dashboard} class="card-img-top" alt="..." />
+                    <img src={jobseeker} class="card-img-top" alt="..." />
                     <div class="title_heading">
-                        <h5 class="card-title">Dashboard</h5>
+                        <h5 class="card-title">Job Seeker</h5>
                     </div>
                     <div className='card-img-overlay'>
-                        <div className='img-title'>Dashboard</div>
+                        <div className='img-title'>Job Seeker</div>
                         <div className='img-description'>
-                            <p>The React Dashboard UI is a sleek and user-friendly interface for monitoring data insights. With its modern design and intuitive layout, users can effortlessly navigate through customizable widgets, real-time updates, and interactive visualizations.
+                            <p>Find your ideal job effortlessly with company details, job descriptions, and salary insights all in one convenient platform.
                             </p>
                             
                             <div className='tech_used'>
-                            <FaHtml5  className='html5'/> &nbsp;
+                                <FaHtml5  className='html5'/> &nbsp;
                                 <SiIcons.SiCss3 className='css3'/> &nbsp;
                                 <SiIcons.SiJavascript className='javascript'/> &nbsp;
                                 <FaReact className='react' /> &nbsp;
                                 <p className='codeLinks text-center pt-3'>
-                                    <a className='bth btn-sm btn-success ml-3' target='_blank' rel="noreferrer" href='https://github.com/Balamuruganraja/Zomato-Clone'>Frontend <i class="fab fa-github"></i></a>
-                                    <a className='bth btn-sm btn-success ml-3' target='_blank' rel="noreferrer" href='https://zomoto-front.vercel.app/delivery'>Website <i class="fad fa-link"></i></a>
+                                    <a className='bth btn-sm btn-success ml-3' target='_blank' rel="noreferrer" href='https://github.com/Balamuruganraja/job_seeker'>Frontend <i class="fab fa-github"></i></a>
+                                    <a className='bth btn-sm btn-success ml-3' target='_blank' rel="noreferrer" href='https://job-seeker-app.vercel.app/
+                                    '>Website <i class="fad fa-link"></i></a>
                                 </p>
                             </div>
                         </div>
